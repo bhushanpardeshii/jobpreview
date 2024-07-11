@@ -21,7 +21,7 @@ export default function Sidebar() {
             <div>
                 {JOB_INFO.map((item, index) => {
                     return (
-                        <div key={item.id || index} className="flex flex-row justify-between mr-4 ml-4 text-[#4F4F4F] border-b-2 items-center">
+                        <div key={index} className="flex flex-row justify-between mr-4 ml-4 text-[#4F4F4F] border-b-2 items-center">
                             <div className="flex flex-row gap-3 p-6 items-center">
                                 <Image src={item.icon} w={24} h={24} alt='lkjf' />
                                 <div> {item.label}</div>
