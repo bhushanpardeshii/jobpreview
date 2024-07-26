@@ -26,7 +26,7 @@ export default function Navbar() {
             <button className={'bg-gray-200 text-orange-600 font-medium px-6 py-2'}>
                 Logo
             </button>
-            <div className={'flex border rounded-full 1px px-2 py-1 gap-2 items-center md:gap-20'}>
+            <div className={'sm:flex hidden  border rounded-full 1px px-2 py-1 gap-2 items-center md:gap-20'}>
                 <button style={getButtonStyle('Jobs')}
                     onClick={() => handleButtonClick('Jobs')} className={' flex gap-2 text-lg'}>
                     <Image src={job_icon} w={20} h={18} alt='lkj' />

@@ -50,7 +50,7 @@ export default function Job() {
                         <h1 className={'text-[#6E6D6D] text-sm font-medium'}>Type</h1>
                         <p className={'font-semibold text-[#3D3D3D]'}>Full Time</p>
                     </div>
-                    <div>
+                    <div className='sm:flex hidden'>
                         <h1 className={'text-[#6E6D6D] text-sm font-medium'}>Years of Experience</h1>
                         <p className={'font-semibold text-[#3D3D3D]'}>3+ Years of Experience </p>
                     </div>

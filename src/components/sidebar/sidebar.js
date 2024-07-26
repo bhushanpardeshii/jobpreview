@@ -7,7 +7,7 @@ export default function Sidebar() {
     return (
         <div className={'flex flex-col mr-3 border-l-2'}>
 
-            <div className={'flex flex-row mt-8 ml-2 gap-3 '}>
+            <div className={' flex flex-row justify-center mt-8 ml-2 gap-3 '}>
                 <button className={'border rounded-md bg-[#FEF4F2] flex items-center gap-2 text-orange-600  pl-7 pr-7 p-1'}>
                     <Image src={trash} w={24} h={24} alt='lkjf' />
                     Delete job
